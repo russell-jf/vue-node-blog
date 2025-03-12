@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0"
+    />
+    <title>小张的个人博客</title>
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="keywords" content="Vue3、前后端分离、个人博客网站" />
+    <meta
+      name="description"
+      content="一款基于Vue3、element-plus开发的个人博客网站，用于记录自己的前端学习、生活等"
+    />
+    <style>
+      .load {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+      }
+      .load hr {
+        border: 0;
+        margin: 0;
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        border-radius: 50%;
+        animation: spin 2s ease infinite;
+      }
+
+      .load :first-child {
+        background: #49b1f5;
+        animation-delay: -1.5s;
+      }
+      .load :nth-child(2) {
+        background: #aadafa;
+        animation-delay: -1s;
+      }
+      .load :nth-child(3) {
+        background: #49b1f5;
+        animation-delay: -0.5s;
+      }
+      .load :last-child {
+        background: #aadafa;
+      }
+
+      @keyframes spin {
+        0%,
+        100% {
+          transform: translate(0);
+        }
+        25% {
+          transform: translate(160%);
+        }
+        50% {
+          transform: translate(160%, 160%);
+        }
+        75% {
+          transform: translate(0, 160%);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <noscript>
+        <strong
+          >We're sorry but browser doesn't work properly without JavaScript enabled. Please enable
+          it to continue.</strong
+        >
+      </noscript>
+      <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
