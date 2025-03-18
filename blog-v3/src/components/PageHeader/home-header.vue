@@ -88,7 +88,7 @@ onBeforeUnmount(() => {
 <template>
   <div id="home">
     <el-image class="bg !w-[100%] !h-[100%]" fit="cover" :src="getBgCover"></el-image>
-    <div class="font">小张的个人博客</div>
+    <div class="font">russ的个人博客</div>
     <TypeWriter class="type-writer" size="1.2em" :typeList="saying"></TypeWriter>
     <Waves />
     <!-- <First /> -->

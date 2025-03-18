@@ -11,7 +11,7 @@ const Category = seq.define(
       type: DataTypes.STRING(55),
       require: true,
       unique: true,
-      comment: "分类名称 唯一",
+      comment: "分类名称..",
     },
     createdAt: {
       type: Sequelize.DATE,

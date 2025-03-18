@@ -65,6 +65,7 @@ app.use(json());
 app.use(logger());
 // koa-static 博客图片静态访问
 app.use(require("koa-static")(path.join(__dirname, "./upload")));
+app.use(require("koa-static")(path.join(__dirname, "./local")));
 
 app.use(
   views(__dirname + "/views", {

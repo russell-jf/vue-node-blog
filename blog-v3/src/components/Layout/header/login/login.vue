@@ -77,7 +77,7 @@ const welcome = (id, nick_name) => {
   // 欢迎
   let msg = getWelcomeSay(nick_name);
   if (id == 3) {
-    msg = "小婷光临，真是三生有幸";
+    msg = "小美光临，真是三生有幸";
   }
   ElNotification({
     offset: 60,

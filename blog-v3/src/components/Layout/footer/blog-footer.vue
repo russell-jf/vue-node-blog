@@ -5,7 +5,7 @@
     class="footer_box flex flex-col items-center justify-center"
   >
     <!-- eslint-disable-next-line -->
-    <div class="footer-color">&copy 小张的博客 2023</div>
+    <div class="footer-color">&copy russ的博客 2025</div>
     <a class="footer-color change-color mt-[5px]" href="http://beian.miit.gov.cn/" target="_blank"
       >蜀ICP备2023007772号</a
     >
